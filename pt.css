@@ -1,0 +1,139 @@
+body {
+  margin: 0px;
+}
+
+#main {
+  display: flex;
+}
+
+#periodicTable {
+  width: 70%;
+  background-color: white;
+}
+
+#infoPt {
+  width: 30%;
+  background-color: lightcyan;
+}
+
+#heading {
+  text-align: center;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  height: 20px;
+  background-color: black;
+  color: white;
+  padding-top: 10px;
+  font-size: medium;
+}
+
+.infoElem {
+  height: 200px;
+  width: 200px;
+  background-color: aqua;
+}
+.mainElem {
+  margin: 20px;
+}
+.img {
+  height: 100vh;
+  width: 100%;
+}
+
+a {
+  display: inline-block;
+  width: 3%;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  margin: 2px;
+  padding: 4px;
+  font-size: xx-small;
+  text-align: center;
+  border-radius: 2px;
+  text-decoration: none;
+}
+.hidden {
+  display: none;
+  font-size: xx-small;
+}
+.ptElemCl1 {
+  margin-left: 88.5%;
+}
+.ptElemCl4 {
+  margin-left: 55.5%;
+}
+.ptElemCl12 {
+  margin-left: 55.5%;
+}
+.elemId {
+  height: 130px;
+  display: flex;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  font-size: xx-large;
+}
+
+.alkali {
+  background-color: mediumseagreen;
+  color: black;
+}
+.transitionMetals {
+  background-color: blueviolet;
+  color: black;
+}
+.alkalineEarth {
+  background-color: darkcyan;
+  color: black;
+}
+.pastTrans {
+  background-color: cyan;
+  color: black;
+}
+.metalioids {
+  background-color: coral;
+  color: black;
+}
+.reactiveNonMetal {
+  background-color: skyblue;
+  color: black;
+}
+.nobelGas {
+  background-color: rgb(238, 145, 145);
+  color: black;
+}
+.lanthanides {
+  background-color: violet;
+  color: black;
+}
+.actinides {
+  background-color: goldenrod;
+  color: black;
+}
+.unknown {
+  background-color: grey;
+  color: black;
+}
+
+.elemName{
+  font-weight: bolder;
+  font-size: large;
+}
+
+.info{
+  font-weight: bold;
+}
+.infoMore{
+  font-weight: bold;
+  color: darkred;
+}
+.type{
+  font-size: xx-small;
+  font-weight: bolder;
+  margin: 2px
+}
+
+#same{
+  margin-top: 30px;
+  padding: 2px;
+  border-radius: 4px;
+}
