@@ -9,10 +9,13 @@ body {
 
 #periodicTable {
   width: 70%;
-  height: max-content;
+  height: 100%;
   background-color: white;
 }
 
+.pt_main{
+  margin-top: 50px;
+}
 #infoPt {
   width: 30%;
   background-color: lightcyan;
@@ -44,6 +47,12 @@ body {
   width: 100%;
 }
 
+.elemNumb{
+  font-size: xx-small;
+  margin-top: 20px;
+  margin-left: 0;
+}
+
 a {
   display: inline-block;
   width: 3%;
@@ -60,13 +69,13 @@ a {
   font-size: xx-small;
 }
 .ptElemCl1 {
-  margin-left: 88.5%;
+  margin-left: 80%;
 }
 .ptElemCl4 {
-  margin-left: 55.5%;
+  margin-left: 50%;
 }
 .ptElemCl12 {
-  margin-left: 55.5%;
+  margin-left: 50%;
 }
 .elemId {
   height: 130px;
@@ -94,7 +103,7 @@ a {
   color: black;
 }
 .metalioids {
-  background-color: coral;
+  background-color: tomato;
   color: black;
 }
 .reactiveNonMetal {
@@ -157,4 +166,34 @@ a {
 .actinidesCSS,
 .unknownCSS {
   transform: scale(1.25);
+  background-color: black;
+  color: white;
+  border-radius: 0px;
+}
+
+/* .reactiveNonMetalCSS,
+.transitionMetalsCSS,
+.alkaliCSS,
+.lanthanidesCSS,
+.alkalineEarthCSS,
+.pastTransCSS,
+.metalioidsCSS,
+.nobelGasCSS,
+.actinidesCSS,
+.unknownCSS :hover{
+  animation: myAnim 200 ;
+}
+
+@keyframes myAnim {
+  0% {transition: cubic-bezier(0.23, 1, 0.320, 1); background-color: aqua;}
+  25% {transition: cubic-bezier(0.23, 1, 0.320, 1); background-color: aqua;}
+  50% {transition: cubic-bezier(0.23, 1, 0.320, 1); background-color: aqua;}
+  75% {transition: cubic-bezier(0.23, 1, 0.320, 1); background-color: aqua;}
+  100% {transition: cubic-bezier(0.23, 1, 0.320, 1); background-color: aqua;}
+  
+} */
+
+.selectedElemClass{
+  background-color: black;
+  color: white;
 }

@@ -24,6 +24,12 @@ $(document).ready(function () {
         // $("#none" + index).toggle("fold",500 );
       });
     })(i);
+    (function (index) {
+      $("#ptElemId" + index).hover(function () {
+        $("#ptElemId" + index).toggleClass("selectedElemClass");
+        // $("#none" + index).toggle("fold",500 );
+      });
+    })(i);
   }
 
   //transitionMetals
@@ -117,10 +123,4 @@ $(document).ready(function () {
   });
 
 });
-
-var elemId = [];
-for (var i = 1; i <= 118; i++) {
-  b.push(i);
-}
-
-for (var i = 0; i < 118; i++) {}
+ 
